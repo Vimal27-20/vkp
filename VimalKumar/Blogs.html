@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .blog {
+            display: flex;
+            margin-top: 20px;
+        }
+        .content {
+            flex: 2;
+            padding: 20px;
+            background: #fff;
+            margin-right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .post h2 {
+            margin: 0;
+        }
+        .post p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        My Blog
+    </header>
+    <div class="container">
+        <div class="blog">
+            <div class="content">
+                <div class="post">
+                    <h2>First Blog Post</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+                </div>
+                <div class="post">
+                    <h2>Second Blog Post</h2>
+                    <p>Quisque fermentum, dolor ac vestibulum suscipit, libero nisl egestas risus.</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Technology</li>
+                    <li>Lifestyle</li>
+                    <li>Travel</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
