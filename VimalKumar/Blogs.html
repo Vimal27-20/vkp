@@ -4,82 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-        }
-        .blog {
-            display: flex;
-            margin-top: 20px;
-        }
-        .content {
-            flex: 2;
-            padding: 20px;
-            background: #fff;
-            margin-right: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .sidebar {
-            flex: 1;
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .post {
-            margin-bottom: 20px;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .post h2 {
-            margin: 0;
-        }
-        .post p {
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="Blogs.css">
 </head>
 <body>
     <header>
-        My Blog
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <div class="blog">
-            <div class="content">
-                <div class="post">
-                    <h2>First Blog Post</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
-                </div>
-                <div class="post">
-                    <h2>Second Blog Post</h2>
-                    <p>Quisque fermentum, dolor ac vestibulum suscipit, libero nisl egestas risus.</p>
-                </div>
-            </div>
-            <div class="sidebar">
-                <h3>Categories</h3>
-                <ul>
-                    <li>Technology</li>
-                    <li>Lifestyle</li>
-                    <li>Travel</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    
+    <main>
+        <article>
+            <h2>The Impact of UX Design on User Engagement</h2>
+            <p><strong>Published on:</strong> February 16, 2025</p>
+            <img src="ux-design.jpg" alt="UX Design" style="width:100%; max-width:800px;">
+            <p>User Experience (UX) design plays a crucial role in shaping how users interact with digital products. A well-designed UX improves usability, accessibility, and overall satisfaction, leading to higher engagement rates.</p>
+            
+            <h3>1. Why UX Matters</h3>
+            <p>Good UX design ensures that users can navigate a website or app effortlessly. Research suggests that websites with intuitive designs have a 50% lower bounce rate than those with poor usability.</p>
+            
+            <h3>2. Key UX Principles</h3>
+            <ul>
+                <li><strong>Simplicity:</strong> Keeping interfaces clean and easy to navigate.</li>
+                <li><strong>Consistency:</strong> Maintaining uniformity in design elements.</li>
+                <li><strong>Accessibility:</strong> Ensuring all users, including those with disabilities, can use the product.</li>
+            </ul>
+            
+            <h3>3. Case Study: Airbnb</h3>
+            <p>Airbnb redesigned its booking flow, making the process more seamless. As a result, they saw a 30% increase in conversions.</p>
+            
+            <h3>4. Conclusion</h3>
+            <p>Investing in UX design is essential for any digital product aiming for success. It enhances usability, increases customer satisfaction, and drives business growth.</p>
+            
+            <h3>References</h3>
+            <ul>
+                <li>Norman, D. (2013). <em>The Design of Everyday Things</em>. Basic Books.</li>
+                <li>Krug, S. (2005). <em>Don't Make Me Think</em>. New Riders.</li>
+                <li>Airbnb UX Case Study (2022). <a href="https://uxdesign.cc">UX Design Blog</a></li>
+            </ul>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
 </body>
 </html>
